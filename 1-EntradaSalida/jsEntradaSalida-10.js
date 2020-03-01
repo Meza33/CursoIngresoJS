@@ -3,7 +3,7 @@ Transformarlo a entero (parseInt), luego
 mostrar el importe con un Descuento del 25 %
 en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
-{ // Se declaran las variables.
+{
     var importe;
     var descuento;
     var resultado;
@@ -16,5 +16,4 @@ function mostrarAumento()
 
     document.getElementById("resultado").value=resultado;
 
-	
 }
